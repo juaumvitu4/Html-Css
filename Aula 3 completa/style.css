@@ -1,0 +1,24 @@
+body {
+    background: #CCCCCC
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#fonte-size {
+    font-size: 20px;
+}
+
+em strong {
+    color: #FF0000;
+}
+
+#banner {
+    width: 100%;   
+
+}

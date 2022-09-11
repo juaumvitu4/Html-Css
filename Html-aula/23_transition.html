@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeitos</title>
+
+    <style> 
+
+    div {
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+
+        transition-property: width, hight;
+        transition-duration: .5s;
+        transition-timing-function: cubic-bezier(.67,-0.38,.5,1.5), linear;
+        transition-delay: .4s, 0.8s;
+    }
+    div:hover {
+        width: 400px;
+        height: 400px;
+    }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Estruturas basicas</h1>
+    
+    <div>1</div>
+</body>
+</html>
